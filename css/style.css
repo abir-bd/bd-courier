@@ -265,7 +265,7 @@ footer{
 
 /* // Extra small devices (portrait phones, less than 576px) */
 /* // No media query for `xs` since this is the default in Bootstrap */
-@media (min-width: 320px) { 
+@media (min-width: 320px) and ( max-width: 575px) { 
     .banner_overlay {
         padding: 88px 0px;
     }
