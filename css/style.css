@@ -5,6 +5,9 @@ h1,h2,h3,h4,h5,p,ul,ol{
     padding: 0;
     margin: 0;
 }
+ul,ol{
+    list-style: none;
+}
 nav{
     background-color: #ffffff;
 }
@@ -201,4 +204,58 @@ nav{
 }
 #client img{
     width: 80%;
+}
+
+footer{
+    background-color: #A000B3;
+    padding-top: 50px;
+}
+.footer_txt{
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #D6D6D6;
+}
+.footer_form form{
+    background-color: #C500DC;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_input {
+    background-color: #DFDFDF;
+    border: none;
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.footer_form form button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    width: 34%;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+.f_c_heading{
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+}
+.footer_second ul li{
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin: 15px 0;
+}
+.footer_last{
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    padding: 12px 0;
 }
