@@ -326,6 +326,9 @@ footer{
     .footer_form {
         margin-bottom: 20px;
     }
+    .navbar {
+        padding: 1.5rem 1rem;
+    }
  }
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {  }
