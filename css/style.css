@@ -259,3 +259,83 @@ footer{
     color: #fff;
     padding: 12px 0;
 }
+
+
+/* responsive part start */
+
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+@media (min-width: 320px) { 
+    .banner_overlay {
+        padding: 88px 0px;
+    }
+    .banner_overlay h3 {
+        font-size: 30px;
+    }
+    .ban_btn {
+        padding: 5px 20px;
+        border-radius: 7px;
+        margin: 4px;
+        font-size: 14px;
+    }
+    #service {
+        margin-top: 22em;
+    }
+    .banner_sub {
+        top: 30rem;
+    }
+    .ban_number {
+        font-weight: 400;
+        font-size: 36px;
+    }
+    .ban_title {
+        margin-top: 0px;
+    }
+    .service_main {
+        margin-bottom: 70px;
+    }
+    .common_heading {
+        font-size: 18px;
+        margin: 80px 4% 70px;
+    }
+    .story_img {
+        display: none;
+    }
+    .soft_main {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .story_main {
+        margin-top: 0em;
+    }
+    .story_main p {
+        text-align: justify;
+    }
+    .story_main {
+        padding: 30px 5% 30px 5%;
+    }
+    .story_p_3 {
+        padding-right: 0%;
+    }
+    .feature_heading {
+        margin: 100px 0 15px;
+    }
+    .feature_main {
+        margin-bottom: 30px;
+    }
+    .footer_form {
+        margin-bottom: 20px;
+    }
+ }
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+/* responsive part end */
