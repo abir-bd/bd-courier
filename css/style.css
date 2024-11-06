@@ -132,6 +132,9 @@ nav{
     margin-top: 150px;
     position: relative;
 }
+.story_p_3{
+    padding-right: 25%;
+}
 .story_img {
     position: absolute;
     top: -190px;
@@ -147,4 +150,55 @@ nav{
 .story_main p{
     font-family: "Hind Siliguri", sans-serif;
     font-size: 20px;
+}
+
+.feature_heading {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 40px;
+    color: #A000B3;
+    margin: 150px 0 15px;
+    font-weight: 600;
+}
+.feature_sub_heading{
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 20px;
+    color: #6F6F6F;
+}
+.feature_main {
+    border: 1px solid #F3E2F8;
+    border-radius: 20px;
+    padding: 10px;
+    min-height: 20rem;
+    position: relative;
+}
+.feature_main h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #1D263A;
+    margin: 10px 0;
+}
+.feature_main p {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #B0B7C3;
+    margin: 10px 0;
+}
+.feature_main a{
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+    color: #A000B3;
+    position: absolute;
+    bottom: 10px;
+    left: 35%;
+}
+#feature{
+    margin-top: 60px;
+}
+#client{
+    margin: 50px 0;
+}
+#client img{
+    width: 80%;
 }
