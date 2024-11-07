@@ -71,7 +71,11 @@ nav{
     background-color: #BA68C8;
 }
 .banner_sub {
-    background: radial-gradient(#AC77FF, #DF96EC);
+    /* background: radial-gradient(#AC77FF, #DF96EC); */
+    background-image: url("../image/banner_sub.png");
+    background-size: 120% 556%;
+    background-position: center;
+    background-repeat: no-repeat;
     position: absolute;
     top: 24rem;
     left: 10%;
