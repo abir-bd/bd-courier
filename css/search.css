@@ -99,11 +99,14 @@ nav{
     color: #fff;
 }
 #table_part {
-    margin: 16rem 0 8rem;
+    margin: 11rem 0 4rem;
 }
 .table_ul ul{
     border: 1px solid #B6B6B6;
     border-radius: 10px;
+}
+.table_ul ul li {
+    padding: 0px 20px;
 }
 .search_btn {
     color: #fff;
