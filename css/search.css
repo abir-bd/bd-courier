@@ -43,7 +43,7 @@ nav{
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 90px 3% 120px;
+    padding: 90px 3% 150px;
 }
 .banner_overlay h3 {
     font-family: "Hind Siliguri", sans-serif;
@@ -82,8 +82,27 @@ nav{
     margin: 0 auto;
     width: 80%;
 }
-.input_search{
-    background-color: #8F92A1;
+.input_search {
+    background-color: #acafbf;
+    border-radius: 10px;
+    margin: 10px 5%;
+    padding: 20px 0;
+}
+.input_search input{
+    border: none;
+    background-color: transparent;
+    margin: 5px 0;
+}
+.input_search input:focus{
+    border: none;
+    outline: none;
+    color: #fff;
+}
+.search_btn {
+    color: #fff;
+    background-color: #A000B3;
+    padding: 12px 35px;
+    border-radius: 10px;
 }
 .search_phn{
     text-align: left;
