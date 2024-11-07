@@ -98,6 +98,13 @@ nav{
     outline: none;
     color: #fff;
 }
+#table_part {
+    margin: 16rem 0 8rem;
+}
+.table_ul ul{
+    border: 1px solid #B6B6B6;
+    border-radius: 10px;
+}
 .search_btn {
     color: #fff;
     background-color: #A000B3;
