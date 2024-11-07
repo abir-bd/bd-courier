@@ -3,6 +3,7 @@ a{
 }
 a:hover{
     text-decoration: none;
+    color: #fff;
 }
 h1,h2,h3,h4,h5,p,ul,ol{
     padding: 0;
@@ -83,7 +84,7 @@ nav{
     width: 80%;
 }
 .input_search {
-    background-color: #acafbf;
+    background-color: rgba(143, 146, 161, 0.1);
     border-radius: 10px;
     margin: 10px 5%;
     padding: 20px 0;
@@ -100,6 +101,32 @@ nav{
 }
 #table_part {
     margin: 11rem 0 4rem;
+    font-family: "Hind Siliguri", sans-serif;
+}
+.qourier{
+    font-size: 20px;
+    color: #A000B3;
+}
+.bg-purple ul{
+    background-color: #A000B3;
+    color: #fff;
+}
+.bg-green ul{
+    background-color: #34C759;
+    color: #fff;
+}
+.bg-red ul{
+    background-color: #E73534;
+    color: #fff;
+}
+.bg-purple ul hr{
+    background-color: #fff;
+}
+.bg-green ul hr{
+    background-color: #fff;
+}
+.bg-red ul hr{
+    background-color: #fff;
 }
 .table_ul ul{
     border: 1px solid #B6B6B6;
@@ -132,6 +159,54 @@ nav{
     top: 38px;
     left: 0;
 }
+.number{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    position: relative;
+}
+.number img {
+    position: absolute;
+    right: -20px;
+    bottom: 6px;
+}
+.graph_title_one{
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #BA68C8;
+}
+.graph_title_two{
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #34C759;
+}
+.graph_title_three{
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #D62124;
+}
+.graph_txt h5{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+.graph_img p{
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+}
+.graph_img{
+    position: relative;
+}
+.download_img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 .common_heading {
     font-family: "Hind Siliguri", sans-serif;
     font-size: 40px;
@@ -148,32 +223,6 @@ nav{
     border: 1px solid #DFDFDF;
     padding: 15px;
     border-radius: 15px;
-}
-.story_main {
-    background-color: #E4D2FF;
-    padding: 30px 20% 30px 5%;
-    border-radius: 20px;
-    margin-top: 150px;
-    position: relative;
-}
-.story_p_3{
-    padding-right: 25%;
-}
-.story_img {
-    position: absolute;
-    top: -190px;
-    left: 50%;
-    width: 80%;
-}
-.story_main h3{
-    font-family: "Hind Siliguri", sans-serif;
-    font-size: 40px;
-    color: #A000B3;
-    font-weight: 600;
-}
-.story_main p{
-    font-family: "Hind Siliguri", sans-serif;
-    font-size: 20px;
 }
 
 .feature_heading {
@@ -288,22 +337,50 @@ footer{
 /* // No media query for `xs` since this is the default in Bootstrap */
 @media (min-width: 320px) and ( max-width: 575px) { 
     .banner_overlay {
-        padding: 88px 0px;
+        padding: 50px 0px;
     }
     .banner_overlay h3 {
         font-size: 30px;
     }
-    .ban_btn {
-        padding: 5px 20px;
-        border-radius: 7px;
-        margin: 4px;
+    .banner_overlay h3 span {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    .banner_overlay p {
         font-size: 14px;
+        text-align: justify;
+        padding: 2%;
     }
-    #service {
-        margin-top: 22em;
+    #table_part {
+        margin: 30rem 0 4rem;
+        font-family: "Hind Siliguri", sans-serif;
     }
+.search_phn{
+    text-align: center!important;
+}
+.search_phn::after {
+    left: 39%;
+}
+.input_search img{
+    margin: auto;
+}
+.input_search input:focus{
+    color: #535252;
+}
+.input_search a{
+    margin: auto;
+}
+.input_search input {
+    padding: 10px 12%;
+}
+.table_ul ul {
+    margin-top: 2rem;
+}
+.graph{
+    margin-top: 5rem;
+}
     .banner_sub {
-        top: 30rem;
+        top: 25rem;
     }
     .ban_number {
         font-weight: 400;
@@ -325,18 +402,6 @@ footer{
     .soft_main {
         margin-bottom: 50px;
         text-align: center;
-    }
-    .story_main {
-        margin-top: 0em;
-    }
-    .story_main p {
-        text-align: justify;
-    }
-    .story_main {
-        padding: 30px 5% 30px 5%;
-    }
-    .story_p_3 {
-        padding-right: 0%;
     }
     .feature_heading {
         margin: 100px 0 15px;
@@ -360,7 +425,13 @@ footer{
         padding: 80px 0;
     }
     .banner_sub {
-        top: 32rem;
+        top: 38rem;
+    }
+    #table_part {
+        margin: 28rem 0 4rem;
+    }
+    .table_ul ul {
+        margin-top: 2rem;
     }
     #service {
         margin-top: 28em;
@@ -372,15 +443,18 @@ footer{
         text-align: center;
         margin-bottom: 30px;
     }
-    .story_main {
-        margin-top: 40px;
- }
- .story_main {
-    padding: 30px 5% 30px 5%;
-}
-.story_p_3 {
-    padding-right: 0;
-}
+    .input_search img{
+        margin: auto;
+    }
+    .input_search input:focus{
+        color: #535252;
+    }
+    .input_search a{
+        margin: auto;
+    }
+    .input_search input {
+        padding: 10px 12%;
+    }
 .feature_main {
     margin-bottom: 40px;
 }
@@ -398,13 +472,11 @@ footer{
     .banner_overlay {
         padding: 70px;
     }
-    .story_img {
-        top: 47px;
-        left: 56%;
-        width: 70%;
-    }
     .banner_sub {
-        top: 30rem;
+        top: 33rem;
+    }
+    #table_part {
+        margin: 20rem 0 4rem;
     }
     .ban_number {
         font-size: 30px;
@@ -431,11 +503,7 @@ footer{
     #service {
         margin-top: 100px;
     }
-    .story_img {
-        top: -1rem;
-        left: 60%;
-        width: 60%;
-    }
+
  }
 
 /* // Extra large devices (large desktops, 1200px and up) */
