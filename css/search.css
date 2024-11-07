@@ -132,26 +132,6 @@ nav{
     top: 38px;
     left: 0;
 }
-#service{
-    margin-top: 170px;
-}
-.service_main {
-    border-radius: 15px;
-    box-shadow: 1px 15px 40px rgb(0 0 0 / 22%);
-    padding: 20px 0%;
-}
-.ser_title{
-    font-family: "Hind Siliguri", sans-serif;
-    font-size: 24px;
-    color: #000000;
-}
-.ser_txt {
-    font-family: "Hind Siliguri", sans-serif;
-    font-size: 12px;
-    color: #000000;
-    padding: 5px 10%;
-}
-
 .common_heading {
     font-family: "Hind Siliguri", sans-serif;
     font-size: 40px;
