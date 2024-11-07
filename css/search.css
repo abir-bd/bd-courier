@@ -43,57 +43,66 @@ nav{
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 140px
+    padding: 90px 3% 120px;
 }
 .banner_overlay h3 {
     font-family: "Hind Siliguri", sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 48px;
     color: #ffffff;
     margin-bottom: 30px;
     padding: 0 8%;
 }
+.banner_overlay h3 span{
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    color: #E7A1EE;
+    margin-bottom: 30px;
+}
 .banner_overlay h3 a{
     color: #E7A1EE;
 }
-.ban_btn {
-    padding: 5px 20px;
-    color: #ffffff!important;
-    border: 2px solid #ffffff;
-    border-radius: 20px;
-    margin: 14px;
+.banner_overlay p{
     font-family: "Hind Siliguri", sans-serif;
+    font-weight: 500;
     font-size: 24px;
+    color: #ffffff;
 }
-.ban_btn:hover{
-    text-decoration: none;
-    border: 2px solid #BA68C8;
-    background-color: #BA68C8;
-}
+
 .banner_sub {
-    background: radial-gradient(#AC77FF, #DF96EC);
+    background: #fff;
+    box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 24rem;
     left: 10%;
-    padding: 25px 5%;
+    padding: 25px 0%;
     border-radius: 15px;
     display: block;
     margin: 0 auto;
     width: 80%;
 }
-.ban_number{
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-size: 60px;
-    color: #ffffff;
+.input_search{
+    background-color: #8F92A1;
 }
-.ban_title {
-    color: #ffffff;
+.search_phn{
     text-align: left;
+    margin-left: 5%;
+    position: relative;
     font-family: "DM Sans", sans-serif;
-    margin-top: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #A000B3;
 }
-
+.search_phn::after {
+    content: "";
+    height: 2px;
+    width: 60px;
+    background-color: #A000B3;
+    position: absolute;
+    top: 38px;
+    left: 0;
+}
 #service{
     margin-top: 170px;
 }
