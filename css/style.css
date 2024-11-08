@@ -314,11 +314,21 @@ footer{
     }
     .soft_main {
         margin-bottom: 50px;
-        text-align: center;
+    }
+    .feature_main {
+        min-height: 18rem;
     }
     .soft_main {
-        height: 140px;
+        height: 90px;
+        margin-bottom: 20px;
     }
+    .common_heading {
+        margin: 26px 4% 20px;
+    }
+    .feature_heading {
+        margin: 60px 0 15px;
+    }
+
     .story_main {
         margin-top: 0em;
     }
@@ -400,7 +410,17 @@ footer{
         font-size: 16px;
     }
     .feature_main {
-        min-height: 26rem;
+        min-height: 18rem;
+        margin-bottom: 20px;
+    }
+    .soft_main {
+        margin-bottom: 20px;
+    }
+    .story_main {
+        margin-top: 1rem;
+    }
+    .feature_heading {
+        margin: 4rem 0 15px;
     }
     .feature_main a {
         left: 23%;
@@ -485,6 +505,22 @@ footer{
     }
  }
  @media (min-width: 1440px) {
+    .banner_overlay {
+        padding: 15rem 23% 20rem;
+    }
+    .banner_sub {
+        /* background: radial-gradient(#AC77FF, #DF96EC); */
+        top: 46rem;
+    }
+    .common_heading {
+        margin: 80px 0 45px;
+    }
+    .soft_main{
+        min-height: 95px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
  }
 /* responsive part end */
