@@ -642,7 +642,12 @@ footer{
     .banner_overlay {
         padding: 10rem 23% 16rem;
     }
-    
+    .soft_main{
+        min-height: 95px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .banner_overlay p {
         font-size: 22px;
     }
