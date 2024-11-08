@@ -94,7 +94,7 @@ ul,ol{
     background-color: rgba(143, 146, 161, 0.1);
     border-radius: 10px;
     margin: 10px 5%;
-    padding: 20px 3%;
+    padding: 20px 0;
 }
 .input_search input{
     border: none;
@@ -109,10 +109,7 @@ ul,ol{
     outline: none;
     color: #1A1A1A;
 }
-#table_part {
-    margin: 11rem 0 4rem;
-    font-family: "Hind Siliguri", sans-serif;
-}
+
 .qourier{
     font-size: 20px;
     color: #A000B3;
@@ -144,6 +141,9 @@ ul,ol{
 }
 .table_ul ul li {
     padding: 0px 20px;
+}
+#table_part {
+    margin: 6rem 0 4rem;
 }
 .search_btn {
     color: #fff;
@@ -540,7 +540,7 @@ footer{
         margin-bottom: 0px;;
     }
     .input_search {
-        padding: 8px 3%;
+        padding: 8px 0;
     }
     #table_part {
         margin: 9rem 0 4rem;
@@ -606,9 +606,6 @@ footer{
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and ( max-width: 1399px){ 
 
-    #table_part {
-        margin: 12rem 0 4rem;
-    }
     .story_img {
         top: -100px;
         left: 60%;
@@ -639,7 +636,7 @@ footer{
     }
 
     #table_part {
-        margin: 14rem 0 4rem;
+        margin: 4rem 0 4rem;
     }
     .common_heading {
         margin: 80px 0 45px;
