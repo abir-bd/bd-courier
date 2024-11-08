@@ -659,5 +659,8 @@ footer{
     #table_part {
         margin: 14rem 0 4rem;
     }
+    .common_heading {
+        margin: 80px 0 45px;
+    }
  }
 /* responsive part end */
