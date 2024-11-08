@@ -298,7 +298,7 @@ footer{
         font-size: 14px;
     }
     #service {
-        margin-top: 22em;
+        margin-top: 3em;
     }
 
     .ban_number {
@@ -307,9 +307,6 @@ footer{
     }
     .ban_title {
         margin-top: 0px;
-    }
-    #service {
-        margin-top: 15em;
     }
     .service_main {
         margin-bottom: 70px;
@@ -440,7 +437,7 @@ footer{
         margin-top: 0px;
     }
     #service {
-        margin-top: 8rem;
+        margin-top: 5rem;
     }
     .service_main {
         min-height: 18rem;
@@ -484,7 +481,7 @@ footer{
     }
  }
  
- @media (min-width: 1400px) and (max-width: 1439px){ 
+ @media (min-width: 1400px) and (max-width: 1440px){ 
 
     .ban_number {
         font-size: 46px;
@@ -496,7 +493,7 @@ footer{
         padding: 0 15%;
     }
  }
- @media (min-width: 1440px) {
+ @media (min-width: 1600px) {
     .common_heading {
         margin: 80px 0 45px;
     }
