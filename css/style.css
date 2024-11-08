@@ -525,9 +525,10 @@ footer{
     }
     .soft_main{
         min-height: 95px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    }
+    .soft_main {
+
+        padding: 22px 10px;
     }
     .ban_number {
         font-size: 52px;
