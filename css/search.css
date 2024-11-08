@@ -44,7 +44,7 @@ nav{
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 90px 10% 150px;
+    padding: 90px 15% 150px;
 }
 .banner_overlay h3 {
     font-family: "Hind Siliguri", sans-serif;
@@ -67,7 +67,7 @@ nav{
 .banner_overlay p{
     font-family: "Hind Siliguri", sans-serif;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 18px;
     color: #ffffff;
 }
 
@@ -87,17 +87,20 @@ nav{
     background-color: rgba(143, 146, 161, 0.1);
     border-radius: 10px;
     margin: 10px 5%;
-    padding: 20px 0;
+    padding: 20px 3%;
 }
 .input_search input{
     border: none;
     background-color: transparent;
     margin: 5px 0;
 }
+.input_search input::placeholder {
+    opacity: 0;
+  }
 .input_search input:focus{
     border: none;
     outline: none;
-    color: #A000B3;
+    color: #1A1A1A;
 }
 #table_part {
     margin: 11rem 0 4rem;
@@ -138,14 +141,14 @@ nav{
 .search_btn {
     color: #fff;
     background-color: #A000B3;
-    padding: 12px 35px;
+    padding: 12px 30px;
     border-radius: 10px;
 }
 .search_phn{
     text-align: left;
     margin-left: 5%;
     position: relative;
-    font-family: "DM Sans", sans-serif;
+    font-family: "Hind Siliguri", sans-serif;
     font-weight: 700;
     font-size: 16px;
     color: #A000B3;
@@ -160,7 +163,7 @@ nav{
     left: 0;
 }
 .number{
-    font-family: "Poppins", sans-serif;
+    font-family: "Hind Siliguri", sans-serif;
     font-weight: 400;
     font-size: 14px;
     position: relative;
@@ -189,8 +192,8 @@ nav{
     color: #D62124;
 }
 .graph_txt h5{
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 700;
     font-size: 40px;
 }
 .graph_img p{
@@ -201,6 +204,12 @@ nav{
 }
 .graph_img{
     position: relative;
+}
+.pb_4{
+    padding-bottom: 1rem!important;
+}
+.pt_2{
+    padding-top: 1rem!important;
 }
 .download_img{
     position: absolute;
@@ -215,7 +224,7 @@ nav{
     font-weight: 600;
 }
 .soft_title{
-    font-family: "Poppins", sans-serif;
+    font-family: "Hind Siliguri", sans-serif;
     font-weight: 600;
     font-size: 20px;
 }
@@ -245,21 +254,21 @@ nav{
     position: relative;
 }
 .feature_main h3 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Hind Siliguri", sans-serif;
     font-weight: 600;
     font-size: 24px;
     color: #1D263A;
     margin: 10px 0;
 }
 .feature_main p {
-    font-family: "DM Sans", sans-serif;
+    font-family: "Hind Siliguri", sans-serif;
     font-weight: 500;
     font-size: 15px;
     color: #B0B7C3;
     margin: 10px 0;
 }
 .feature_main a{
-    font-family: "DM Sans", sans-serif;
+    font-family: "Hind Siliguri", sans-serif;
     font-size: 12px;
     color: #A000B3;
     position: absolute;
@@ -352,8 +361,15 @@ footer{
         padding: 2%;
     }
     #table_part {
-        margin: 30rem 0 4rem;
+        margin: 25rem 0 4rem;
         font-family: "Hind Siliguri", sans-serif;
+    }
+    .banner_sub {
+        box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.1);
+        padding: 25px 0% 0px;
+    }
+    .input_search img {
+        display: none;
     }
 .search_phn{
     text-align: center!important;
@@ -372,13 +388,49 @@ footer{
 }
 .input_search input {
     padding: 10px 12%;
+    background-color: #f7f7;
+    border-radius: 10px;
+    margin-bottom: 1rem;
 }
+.input_search input::placeholder {
+    opacity: 1;
+  }
+  .input_search {
+    background-color: transparent;
+    padding: 0px 3% 10px;
+}
+#table_part {
+    margin: 18rem 0 4rem;
+}
+
 .table_ul ul {
     margin-top: 2rem;
 }
 .graph{
     margin-top: 5rem;
 }
+.bg-green ul{
+    display: flex;
+}
+.bg-purple ul{
+    display: flex;
+}
+.bg-red ul{
+    display: flex;
+}
+.table_ul ul li {
+    padding: 0px 15px;
+}
+.pb_4 {
+    padding-bottom: 0rem!important;
+}
+.pt_2{
+    padding-top: 0!important;
+}
+.table_ul ul li img{
+    width: 50%!important;
+}
+
     .banner_sub {
         top: 25rem;
     }
@@ -394,14 +446,13 @@ footer{
     }
     .common_heading {
         font-size: 18px;
-        margin: 80px 4% 70px;
+        margin: 70px 4% 30px;
     }
     .story_img {
         display: none;
     }
     .soft_main {
-        margin-bottom: 50px;
-        text-align: center;
+        margin-bottom: 20px;
     }
     .feature_heading {
         margin: 100px 0 15px;
@@ -455,6 +506,7 @@ footer{
     .input_search input {
         padding: 10px 12%;
     }
+    
 .feature_main {
     margin-bottom: 40px;
 }
@@ -470,13 +522,34 @@ footer{
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) { 
     .banner_overlay {
-        padding: 70px;
+        padding: 3rem 15% 10rem;
+    }
+    .banner_overlay h3 {
+        margin-bottom: 0px;;
     }
     .banner_sub {
-        top: 33rem;
+        top: 21rem;
+    }
+    .input_search {
+        padding: 8px 3%;
     }
     #table_part {
-        margin: 20rem 0 4rem;
+        margin: 9rem 0 4rem;
+    }
+
+    .graph{
+            margin: 0 auto;
+            width: 60%;
+            margin-top: 5rem;
+    }
+    .common_heading {
+        margin: 50px 0 35px;
+    }
+    .footer_input {
+        font-size: 12px;
+    }
+    .soft_main{
+        margin-top: 1rem;
     }
     .ban_number {
         font-size: 30px;
@@ -484,15 +557,33 @@ footer{
     .ban_title {
         margin-top: 0px;
     }
+    .search_btn{
+        margin-left: 5px;
+    }
+
+
  }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and ( max-width: 1199px) { 
     .banner_overlay {
-        padding: 116px;
+        padding: 5rem 12% 10rem;
     }
     .banner_sub {
-        top: 25rem;
+        top: 21rem;
+    }
+    .input_search {
+        padding: 10px 3%;
+    }
+    .table_ul ul li {
+        padding: 0px 6px;
+    }
+    .common_heading {
+        margin: 80px 0 50px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 2.5rem!important;
+
     }
     .ban_number {
         font-size: 42px;
@@ -509,10 +600,10 @@ footer{
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and ( max-width: 1399px){ 
     .banner_sub {
-        top: 25rem;
+        top: 21rem;
     }
     #table_part {
-        margin: 15rem 0 4rem;
+        margin: 12rem 0 4rem;
     }
     .story_img {
         top: -100px;
@@ -541,7 +632,7 @@ footer{
         padding: 8rem 20% 15rem;
     }
     .banner_sub {
-        top: 32rem;
+        top: 29rem;
         left: 25%;
         width: 50%;
     }
