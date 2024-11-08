@@ -504,9 +504,9 @@ footer{
  
  @media (min-width: 1400px) and (max-width: 1439px){ 
     .banner_sub {
-        top: 23rem;
-        left: 25%;
-        width: 50%;
+        top: 32rem;
+        left: 20%;
+        width: 60%;
     }
     .ban_number {
         font-size: 46px;
