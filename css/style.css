@@ -486,6 +486,9 @@ footer{
     .ban_number {
         font-size: 46px;
     }
+    .banner_overlay h3 {
+        font-size: 48px;
+    }
     .ban_title {
         margin-top: 10px;
     }
