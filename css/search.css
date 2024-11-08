@@ -605,9 +605,7 @@ footer{
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and ( max-width: 1399px){ 
-    .banner_sub {
-        top: 21rem;
-    }
+
     #table_part {
         margin: 12rem 0 4rem;
     }
@@ -639,11 +637,7 @@ footer{
     .banner_overlay p {
         font-size: 22px;
     }
-    .banner_sub {
-        top: 35rem;
-        left: 25%;
-        width: 50%;
-    }
+
     #table_part {
         margin: 14rem 0 4rem;
     }
