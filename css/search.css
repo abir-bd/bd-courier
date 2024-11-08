@@ -360,6 +360,7 @@ footer{
         text-align: justify;
         padding: 2%;
     }
+    
     #table_part {
         margin: 25rem 0 4rem;
         font-family: "Hind Siliguri", sans-serif;
@@ -400,7 +401,7 @@ footer{
     padding: 0px 3% 10px;
 }
 #table_part {
-    margin: 18rem 0 4rem;
+    margin: 20rem 0 4rem;
 }
 
 .table_ul ul {
