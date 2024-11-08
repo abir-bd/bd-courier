@@ -130,10 +130,11 @@ nav{
     font-weight: 600;
     font-size: 20px;
 }
-.soft_main{
+.soft_main {
     border: 1px solid #DFDFDF;
     padding: 15px;
     border-radius: 15px;
+    height: 100px;
 }
 .story_main {
     background-color: #E4D2FF;
@@ -312,6 +313,9 @@ footer{
         margin-bottom: 50px;
         text-align: center;
     }
+    .soft_main {
+        height: 140px;
+    }
     .story_main {
         margin-top: 0em;
     }
@@ -389,6 +393,15 @@ footer{
         left: 56%;
         width: 70%;
     }
+    .soft_title {
+        font-size: 16px;
+    }
+    .feature_main {
+        min-height: 26rem;
+    }
+    .feature_main a {
+        left: 23%;
+    }
     .banner_sub {
         top: 30rem;
     }
@@ -425,5 +438,44 @@ footer{
  }
 
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) and ( max-width: 1399px){ 
+    .banner_sub {
+        top: 29rem;
+    }
+    .story_img {
+        top: -100px;
+        left: 60%;
+        width: 60%;
+    }
+    .ban_number {
+        font-size: 44px;
+    }
+    .ban_title {
+        margin-top: 10px;
+    }
+    .banner_sub {
+        left: 15%;
+        width: 70%;
+    }
+ }
+ 
+ @media (min-width: 1400px) and (max-width: 1439px){ 
+    .banner_sub {
+        top: 23rem;
+        left: 25%;
+        width: 50%;
+    }
+    .ban_number {
+        font-size: 46px;
+    }
+    .ban_title {
+        margin-top: 10px;
+    }
+    .banner_overlay h3 {
+        padding: 0 15%;
+    }
+ }
+ @media (min-width: 1440px) {
+
+ }
 /* responsive part end */

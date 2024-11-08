@@ -44,7 +44,7 @@ nav{
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 90px 3% 150px;
+    padding: 90px 10% 150px;
 }
 .banner_overlay h3 {
     font-family: "Hind Siliguri", sans-serif;
@@ -97,7 +97,7 @@ nav{
 .input_search input:focus{
     border: none;
     outline: none;
-    color: #fff;
+    color: #A000B3;
 }
 #table_part {
     margin: 11rem 0 4rem;
@@ -507,5 +507,46 @@ footer{
  }
 
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) and ( max-width: 1399px){ 
+    .banner_sub {
+        top: 25rem;
+    }
+    #table_part {
+        margin: 15rem 0 4rem;
+    }
+    .story_img {
+        top: -100px;
+        left: 60%;
+        width: 60%;
+    }
+    .ban_number {
+        font-size: 44px;
+    }
+    .ban_title {
+        margin-top: 10px;
+    }
+    .banner_sub {
+        left: 15%;
+        width: 70%;
+    }
+ }
+ 
+ @media (min-width: 1400px){ 
+    .banner_sub {
+        top: 22rem;
+        left: 25%;
+        width: 50%;
+    }
+    .banner_overlay {
+        padding: 8rem 20% 15rem;
+    }
+    .banner_sub {
+        top: 32rem;
+        left: 25%;
+        width: 50%;
+    }
+    #table_part {
+        margin: 14rem 0 4rem;
+    }
+ }
 /* responsive part end */
