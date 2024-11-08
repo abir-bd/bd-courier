@@ -188,6 +188,10 @@ nav{
     font-size: 24px;
     color: #1D263A;
     margin: 10px 0;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .feature_main p {
     font-family: "Hind Siliguri", sans-serif;
@@ -527,7 +531,6 @@ footer{
         font-size: 52px;
     }
     .ban_title {
-
         margin-top: 5px;
     }
 
