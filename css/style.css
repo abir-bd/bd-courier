@@ -500,9 +500,6 @@ footer{
     }
  }
  @media (min-width: 1440px) {
-    .banner_overlay {
-        padding: 15rem 23% 20rem;
-    }
     .common_heading {
         margin: 80px 0 45px;
     }
