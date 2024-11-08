@@ -481,7 +481,7 @@ footer{
     }
  }
  
- @media (min-width: 1400px) and (max-width: 1440px){ 
+ @media (min-width: 1400px) and (max-width: 1599px){ 
 
     .ban_number {
         font-size: 46px;
