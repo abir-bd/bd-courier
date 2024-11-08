@@ -640,8 +640,9 @@ footer{
         width: 50%;
     }
     .banner_overlay {
-        padding: 8rem 23% 18rem;
+        padding: 10rem 23% 16rem;
     }
+    
     .banner_overlay p {
         font-size: 22px;
     }
