@@ -517,6 +517,12 @@ footer{
         font-size: 15px;
         bottom: 15px;
     }
+    .banner_overlay h3 {
+        font-size: 48px;
+    }
+    .banner_overlay {
+        padding: 15rem 20% 15rem;
+    }
  
  }
 /* responsive part end */
