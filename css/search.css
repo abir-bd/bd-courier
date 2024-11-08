@@ -43,7 +43,8 @@ ul,ol{
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    margin-top: 80px;
+    margin-top: 78px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
 }
 .banner_overlay {
     height: 100%;
