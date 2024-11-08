@@ -510,7 +510,9 @@ footer{
     }
     .banner_sub {
         /* background: radial-gradient(#AC77FF, #DF96EC); */
-        top: 46rem;
+        top: 45rem;
+        left: 21.5%;
+        width: 55%;
     }
     .common_heading {
         margin: 80px 0 45px;
@@ -520,6 +522,13 @@ footer{
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .ban_number {
+        font-size: 52px;
+    }
+    .ban_title {
+
+        margin-top: 5px;
     }
 
  }
