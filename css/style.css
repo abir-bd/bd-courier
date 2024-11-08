@@ -487,7 +487,10 @@ footer{
         font-size: 46px;
     }
     .banner_overlay h3 {
-        font-size: 48px;
+        font-size: 36px;
+    }
+    .banner_overlay {
+        padding: 10rem 20% 15rem;
     }
     .ban_title {
         margin-top: 10px;
@@ -504,7 +507,6 @@ footer{
         min-height: 95px;
     }
     .soft_main {
-
         padding: 22px 10px;
     }
     .ban_number {
