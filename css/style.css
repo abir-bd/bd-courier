@@ -440,7 +440,7 @@ footer{
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and ( max-width: 1399px){ 
     .banner_sub {
-        top: 29rem;
+        top: 25rem;
     }
     .story_img {
         top: -100px;

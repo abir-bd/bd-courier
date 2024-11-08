@@ -3,7 +3,7 @@ a{
 }
 a:hover{
     text-decoration: none;
-    color: #fff;
+    color: #fff!important;
 }
 h1,h2,h3,h4,h5,p,ul,ol{
     padding: 0;
