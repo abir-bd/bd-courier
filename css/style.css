@@ -286,10 +286,17 @@ footer{
 /* // No media query for `xs` since this is the default in Bootstrap */
 @media (min-width: 120px) and ( max-width: 575px) { 
     .banner_overlay {
-        padding: 3rem 0px 8rem;
+        padding: 6rem 0 8rem;
     }
     .banner_overlay h3 {
-        font-size: 30px;
+        font-size: 28px;
+    }
+    .feature_sub_heading {
+        font-size: 16px;
+        padding: 0 4%;
+    }
+    .story_main h3 {
+        margin-bottom: 20px;
     }
     .ban_btn {
         padding: 5px 20px;
@@ -297,6 +304,12 @@ footer{
         margin: 4px;
         font-size: 14px;
     }
+    .login_btn {
+        display: block;
+        margin-top: 10px;
+        width: 40%;
+    }
+
     #service {
         margin-top: 3em;
     }
