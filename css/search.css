@@ -86,15 +86,15 @@ ul,ol{
     left: 10%; */
     margin-top: -5rem;
     padding: 25px 0%;
-    border-radius: 15px;
+    border-radius: 20px;
     display: block;
     width: 100%;
 }
 .input_search {
     background-color: rgba(143, 146, 161, 0.1);
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 10px 5%;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 .input_search input{
     border: none;
@@ -150,6 +150,7 @@ ul,ol{
     background-color: #A000B3;
     padding: 12px 30px;
     border-radius: 10px;
+    margin-left: 15%;
 }
 .search_phn{
     text-align: left;
