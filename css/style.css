@@ -533,6 +533,9 @@ footer{
     .ban_title {
         margin-top: 5px;
     }
-
+    .feature_main a {
+        font-size: 15px;
+        bottom: 15px;
+    }
  }
 /* responsive part end */
