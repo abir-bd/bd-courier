@@ -482,6 +482,13 @@ footer{
     #table_part {
         margin: 16rem 0 4rem;
     }
+    .table_ul ul li {
+        padding: 0px 62px;
+    }
+    .graph{
+        margin-top: 4rem;
+        margin-left: 8%;
+    }
     .table_ul ul {
         margin-top: 2rem;
     }
@@ -506,6 +513,9 @@ footer{
     }
     .input_search input {
         padding: 10px 12%;
+        background: #f7f7;
+        border-radius: 15px;
+        margin-bottom: 15px;
     }
     
 .feature_main {
