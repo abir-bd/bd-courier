@@ -275,7 +275,7 @@ footer{
 /* // No media query for `xs` since this is the default in Bootstrap */
 @media (min-width: 120px) and ( max-width: 575px) { 
     .banner_overlay {
-        padding: 88px 0px;
+        padding: 3rem 0px 8rem;
     }
     .banner_overlay h3 {
         font-size: 30px;
@@ -290,7 +290,7 @@ footer{
         margin-top: 22em;
     }
     .banner_sub {
-        top: 30rem;
+        top: 20rem;
     }
     .ban_number {
         font-weight: 400;
@@ -298,6 +298,9 @@ footer{
     }
     .ban_title {
         margin-top: 0px;
+    }
+    #service {
+        margin-top: 15em;
     }
     .service_main {
         margin-bottom: 70px;
@@ -375,7 +378,7 @@ footer{
     margin-bottom: 40px;
 }
 .feature_main a {
-    left: 45%;
+    left: 30%;
 }
 .footer_form {
     margin-bottom: 40px;
@@ -386,7 +389,7 @@ footer{
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) { 
     .banner_overlay {
-        padding: 70px;
+        padding: 4rem 3% 6rem;
     }
     .story_img {
         top: 47px;
@@ -403,13 +406,19 @@ footer{
         left: 23%;
     }
     .banner_sub {
-        top: 30rem;
+        top: 23rem;
     }
     .ban_number {
         font-size: 30px;
     }
     .ban_title {
         margin-top: 0px;
+    }
+    #service {
+        margin-top: 8rem;
+    }
+    .service_main {
+        min-height: 18rem;
     }
  }
 
