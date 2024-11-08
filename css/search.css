@@ -642,6 +642,9 @@ footer{
     .common_heading {
         margin: 80px 0 45px;
     }
+    .banner_overlay {
+        padding: 14rem 23% 16rem;
+    }
 
  }
 /* responsive part end */
