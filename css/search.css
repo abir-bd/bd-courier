@@ -642,6 +642,9 @@ footer{
     .banner_overlay {
         padding: 8rem 23% 18rem;
     }
+    .banner_overlay p {
+        font-size: 22px;
+    }
     .banner_sub {
         top: 32rem;
         left: 25%;
