@@ -73,7 +73,7 @@ nav{
 
 .banner_sub {
     background: #fff;
-    box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.1);
     position: absolute;
     top: 24rem;
     left: 10%;
