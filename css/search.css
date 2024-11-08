@@ -45,6 +45,7 @@ ul,ol{
     position: relative;
     margin-top: 78px;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+    z-index: -1;
 }
 .banner_overlay {
     height: 100%;
@@ -80,14 +81,14 @@ ul,ol{
 .banner_sub {
     background: #fff;
     box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.1);
-    position: absolute;
+    /* position: absolute;
     top: 24rem;
-    left: 10%;
+    left: 10%; */
+    margin-top: -5rem;
     padding: 25px 0%;
     border-radius: 15px;
     display: block;
-    margin: 0 auto;
-    width: 80%;
+    width: 100%;
 }
 .input_search {
     background-color: rgba(143, 146, 161, 0.1);
@@ -438,9 +439,6 @@ footer{
     width: 50%!important;
 }
 
-    .banner_sub {
-        top: 25rem;
-    }
     .ban_number {
         font-weight: 400;
         font-size: 36px;
@@ -481,9 +479,6 @@ footer{
     }
     .banner_overlay {
         padding: 3rem 5% 10rem;
-    }
-    .banner_sub {
-        top: 24rem;
     }
     #table_part {
         margin: 16rem 0 4rem;
@@ -544,9 +539,6 @@ footer{
     .banner_overlay h3 {
         margin-bottom: 0px;;
     }
-    .banner_sub {
-        top: 21rem;
-    }
     .input_search {
         padding: 8px 3%;
     }
@@ -585,9 +577,6 @@ footer{
 @media (min-width: 992px) and ( max-width: 1199px) { 
     .banner_overlay {
         padding: 5rem 12% 10rem;
-    }
-    .banner_sub {
-        top: 21rem;
     }
     .input_search {
         padding: 10px 3%;
@@ -633,18 +622,11 @@ footer{
     .ban_title {
         margin-top: 10px;
     }
-    .banner_sub {
-        left: 15%;
-        width: 70%;
-    }
+
  }
  
  @media (min-width: 1400px){ 
-    .banner_sub {
-        top: 22rem;
-        left: 25%;
-        width: 50%;
-    }
+
     .banner_overlay {
         padding: 10rem 23% 16rem;
     }
