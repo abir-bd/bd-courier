@@ -11,8 +11,12 @@ h1,h2,h3,h4,h5,p,ul,ol{
 ul,ol{
     list-style: none;
 }
-nav{
+.navbar{
     background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
 }
 .navbar-expand-lg .navbar-nav .nav-link{
     position: relative;
@@ -32,12 +36,13 @@ nav{
     font-weight: 500;
     font-size: 16px;
 }
-#banner{
+#banner {
     background-image: url(../image/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    margin-top: 80px;
 }
 .banner_overlay {
     height: 100%;
