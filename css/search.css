@@ -17,7 +17,7 @@ ul,ol{
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 999;
+    z-index: 2;
 }
 .navbar-expand-lg .navbar-nav .nav-link{
     position: relative;

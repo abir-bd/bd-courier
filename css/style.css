@@ -16,7 +16,7 @@ ul,ol{
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 999;
+    z-index: 2;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
 }
 .navbar-expand-lg .navbar-nav .nav-link{
@@ -44,7 +44,6 @@ ul,ol{
     background-position: center;
     position: relative;
     margin-top: 78px;
-    z-index: -1;
 }
 .banner_overlay {
     height: 100%;
@@ -89,6 +88,8 @@ ul,ol{
     margin: 0 auto;
     width: 80%;
     margin-top: -4rem;
+    z-index: 1;
+    position: relative;
 }
 .ban_number{
     font-family: "Hind Siliguri", sans-serif;
